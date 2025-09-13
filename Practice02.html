@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+    <title>Practice02</title>
+</head>
+<form>
+    <h1>Student Registration Form</h1>
+    <br>
+    <label for="name"> Full Name:</label>
+    <br>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+    <br>
+    <br>
+    <label for="email"> Email:</label>
+    <br>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    <br>
+    <br>
+    <label for="DOB"> Date of Birth</label>
+    <input type="date" id="DOB" name="DOB" required>
+    <br>
+    <br>
+    <label>Gender:</label>
+    <input type="radio" id="femaleradio" name="gender" value="female">
+    <label for="femaleradio">Female</label>
+    <input type="radio" id="maleradio" name="gender" value="male">
+    <label for="maleradio">Male</label>
+    <br>
+    <br>
+    <label for="course">Select Course</label>
+    <br>
+    <select id="course" name="course">
+        <option value="cse">Computer Science Engineering</option>
+        <option value="aiml">Artificial Intelligence and Machine Learning</option>
+        <option value="aids">Artificial Intelligence and Data Science</option>
+        <option value="ds">Data Science</option>
+        <option value="civil">Civil Engineering</option>
+        <option value="mechincal">Mechanical Engineering</option>
+    </select>
+    <br>
+    <br>
+    <label>Select Skills:</label>
+    <input type="checkbox" id="coding" name="skill" value="coding">
+    <label for="coding">Coding</label>
+    <input type="checkbox" id="design" name="skill" value="design">
+    <label for="design">Design</label>
+    <input type="checkbox" id="other" name="skill" value="other">
+    <label for="other">Other</label>
+    <br>
+    <br>
+    <label for="address">Address</label>
+    <input type="text" id="address" name="address" placeholder="Enter your address" required>
+    <br>
+    <br>
+    <button type="submit">Register</button>
+    <button type="reset">Reset</button>
+    <br>
+    <br>
+</form>
+</html>
