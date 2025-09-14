@@ -19,17 +19,90 @@
             <br>
             <br>
             <label for="movie"><b>Movie Selection</b></label>
-            <select id="movie" name="movie" 
-
-
-
-
-
-
-
-
-
-
+            <select id="movie" name="movie">
+                <option value="avengers">avengers</option>
+                <option value="jawan">Jawan</option>
+                <option value="pushpa">Pushpa</option>
+            </select> 
+            <br>
+            <br>
+            <label><b>Seat Type</b></label>
+            <input type="radio" id="platinum" name="seat type" required>
+            <label for="platinum">Platinum</label>
+            <input type="radio" id="gold" name="seat type" >
+            <label for="gold">Gold</label>
+            <input type="radio" id="silver" name="seat type">
+            <label for="silver">Silver</label>
+            <br>
+            <br>
+            <label for="snacks"><b>Snacks selection</b></label>
+            <select id="snacks" name="snacks">
+                <option value="popcorn">Popcorn</option>
+                <option value="cocacola">Cocacola</option>
+                <option value="burger">Burger</option>
+                <option value="pizza">Pizza</option>
+            </select>
+            <br>
+            <br>
+            <label><b>Payment Method:</b></label>
+            <input type="radio" id="phonepe" name="payment" required>
+            <label for="phonepe">PhonePe</label> 
+            <input type="radio" id="googlepay" name="payment">
+            <label for="googlepay">Googlepay</label>
+            <input type="radio" id="paytm" name="payment">
+            <label for="paytm">Paytm</label>
+            <input type="radio" id="card" name="payment">
+            <label for="card">Card</label>
+            <input type="radio" id="netbank" name="payment">
+            <label for="netbank">Netbanking</label>
+            <input type="radio" id="cash" name="payment">
+            <label for="cash">Cash</label>
+            <br>
+            <br>
+            <label for="comments"><b>Additional Comments</b></label>
+            <textarea id="comments" name="comments" placeholder="Leave a comment...."></textarea>
+            <br>
+            <br>
+            <button type="submit"><b>Book</b></button>
+            <button type="reset"><b>Reset</b></button>
+            <br>
+            <Br>
         </form>
+        <h2>Show Timings & Pricing</h2>
+        <table border="3" cellpadding="5" cellspacing="3" >
+            <tr>
+                <th> Movie Title</th>
+                <th>Show Time</th>
+                <th>Screen </th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Avengers</td>
+                <td>5.00 PM</td>
+                <td>Screen 1</td>
+                <td>Rs.250</td>
+            </tr>
+            <tr>
+                <td>Jawan</td>
+                <td>7.30 PM</td>
+                <td>Screen 2</td>
+                <td>Rs.300</td>
+            </tr>
+            <tr>
+                <td>Pushpa</td>
+                <td>9.00 PM</td>
+                <td>Screen 3</td>
+                <td>Rs.350</td>
+            </tr>
+            </table>
+            <h2>Avengers movie trailer</h2>
+            <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/XPnM1Kok5aI?si=UxHenIakUuR0PXkZ"  
+            frameborder="0" allowfullscreen></iframe>
+            <br>
+            <h2>Avengers Movie Poster</h2>
+            <img src="https://m.media-amazon.com/images/I/71niXI3lxlL.jpg" alt="Avengers" width="240" height="356">
+            <h2>Cinema hall location</h2>
+            <a href="https://maps.app.goo.gl/p3esd5ET8rGrypwQ8">Click here for location</a>
     </body>
 </html>
