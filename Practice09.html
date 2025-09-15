@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+    <head><title>Practice09</title></head>
+    <body>
+        <h1>Online Food Ordering Website</h1>
+        <form>
+            <fieldset>
+            <label for="name"><b>Name:</b></label>
+            <input type="text" id="name" name="name" placeholder="Enter your Name" required>
+            <br>
+            <br>
+            <label for="email"><b>Email:</b></label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br>
+            <br>
+            <label for="phone"><b>Phone:</b></label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+            <br>
+            <br>
+            <label><b>Food Counter:</b></label>
+            <br>
+            <label for="south food"><b>South Indian Food:</b></label>
+            <select id="south food" name="south food">
+                <option value="masala dosa">Masala Dosa</option>
+                <option value="idli">Idli</option>
+                <option value="full meals">Full meals</option>
+                <option value="curd rice">Curd rice</option>
+            </select>
+            &nbsp; &nbsp; &nbsp; &nbsp;
+            <label for="north food"><b>North Indian Food:</b></label>
+            <select id="north food" name="north food">
+                <option value="naan and curry">Naan and Curry</option>
+                <option value="chole bhature">Chole Bhature</option>
+                <option value="roti and curry">Roti and Curry</option>
+                <option value="pav bhaji">Pav Bhaji</option>
+            </select>
+            &nbsp; &nbsp; &nbsp; &nbsp;
+            <label for="chinese"><b>Chinese Food</b></label>
+            <select id="chinese" name="chinese food">
+                <option value="manchurian">Manchurian</option>
+                <option value="shezwan">Shezwan</option>
+                <option value="chowmin">Chowmin</option>
+                <option value="Noodles">Noodles</option>
+            </select>
+            &nbsp; &nbsp; &nbsp; &nbsp;
+            <label for="italian"><b>Intalian Food</b></label>
+            <select id="italian" name="italian food">
+                <option value="pizza">Pizza</option>
+                <option value="pasta">Pasta</option>
+                <option value="spaghetti">Spaghetti</option>
+                <option value="fries">Fries</option>
+            </select>
+            &nbsp; &nbsp; &nbsp; &nbsp;
+            <label for="drinks"><b>Drinks</b></label>
+            <select id="drinks" name="drinks">
+                <option value="coffee">Coffee</option>
+                <option value="tea">tea</option>
+                <option value="smoothee">Smoothee</option>
+                <option value="cocacola">Cocacola</option>
+            </select>
+            <br>
+            <br>
+            <label for="quantity"><b>Quantity:</b></label>
+            <input type="number" id="quantity" name="quantity" placeholder="Enter the Quantity" required>
+            <br>
+            <br>
+            <label><b>Payment:</b></label>
+            <input  type="radio" id="upi" name="payment" required>
+            <label for="upi">UPI</label>
+            <input  type="radio" id="card" name="payment" required>
+            <label for="card">Card</label>
+            <input  type="radio" id="cash" name="payment" required>
+            <label for="cash">Cash</label>
+            <br>
+            <br>
+            <label for="address"><b>Enter your location:</b></label>
+            <textarea id="address" name="address" placeholder="Enter your location" required></textarea>
+            <br>
+            <br>
+            <button type="submit"><b>Submit</b></button>
+            <button type="reset"><b>Reset</b></button>
+            </fieldset>
+        </form>
+        <h2>Menu Table:</h2>
+        <table border="1" cellpadding="5" cellspacing="5">
+                <tr>
+                    <th>South Indian Food</th>
+                    <th>Price</th>
+                    <th>North Indian Food</th>
+                    <th>Price</th>
+                    <th>Chinese Food</th>
+                    <th>Price</th>
+                    <th>Italian Food</th>
+                    <th>Price</th>
+                    <th>Drinks</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Masala Dosa</td>
+                    <td>Rs.150</td>
+                    <td>Naan and Curry</td>
+                    <td>Rs.350</td>
+                    <td>Manchurian</td>
+                    <td>Rs.200</td>
+                    <td>Pizza</td>
+                    <td>Rs.400</td>
+                    <td>Coffee</td>
+                    <td>Rs.30</td>
+                </tr>
+                <tr>
+                    <td>Idli</td>
+                    <td>Rs.100</td>
+                    <td>Chole Bhature</td>
+                    <td>Rs.250</td>
+                    <td>Shezwan</td>
+                    <td>Rs.250</td>
+                    <td>Pasta</td>
+                    <td>Rs.350</td>
+                    <td>Tea</td>
+                    <td>Rs.30</td>
+                </tr>
+                <tr>
+                    <td>Full Meals</td>
+                    <td>Rs.350</td>
+                    <td>Roti and Curry</td>
+                    <td>Rs.300</td>
+                    <td>Chowmin</td>
+                    <td>Rs.250</td>
+                    <td>Spaghetti</td>
+                    <td>Rs.400</td>
+                    <td>Smoothee</td>
+                    <td>Rs.30</td>
+                    </tr>
+                <tr>
+                    <td>Curd Rice</td>
+                    <td>Rs.100</td>
+                    <td>Pav Bhaji</td>
+                    <td>Rs.150</td>
+                    <td>Noodles</td>
+                    <td>Rs.150</td>
+                    <td>Fries</td>
+                    <td>Rs.200</td>
+                    <td>Cocacola</td>
+                    <td>Rs.30</td>
+                </tr>
+        </table>
+        <br>
+        <br>
+        <h2><b>Take a look at our Restaurant</b></h2>
+        <img src="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?cs=srgb&dl=pexels-pixabay-262978.jpg&fm=jpg" 
+        alt="image" width="300" height="300">      
+        <br>
+        <br>
+        <iframe width="560" height="315"
+         src="https://www.youtube.com/embed/xPPLbEFbCAo?si=eu7REXwmYa2xRiYM"allowfullscreen></iframe>
+         <br>
+         <br>
+         <h2><b>Restaurant Locatiion</b></h2>
+         <a href="https://maps.app.goo.gl/mhCBtGLyHvrPktqKA"><b>Click here to see our location</b></a>
+         <br>
+         <br>
+    </body>
+</html>
