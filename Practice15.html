@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Practice15</title>
+        <style>
+            header{
+                color:lightgoldenrodyellow;
+                background-color:darkred;
+                text-align: center;     
+                line-height: 1;    
+            }
+            h1{
+                font-size: 500%;
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: bold;
+            }
+            .head{
+                font-size: 300%;
+                font-family: 'Times New Roman', Times, serif;
+                font-weight: bold;
+            }
+            .mainsheet{
+                background-color: bisque;
+            }
+            .image{
+                display:block;
+                margin:auto
+            }
+            body{
+                text-align: center;
+            }
+            table{
+                margin-left: auto;
+                margin-right: auto;
+                border: 1px solid black;
+                font-size: x-large;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <br>
+            <h1>Continental Cusine.......</h1>
+            <h2 class="head">Experience the taste of India</h2>
+            <br>
+        </header>
+        <nav class="mainsheet">
+            <br>
+            <br>
+            <button style="font-size: large; font-weight: bold; background-color: blanchedalmond;">Home</button>
+            <button style="font-size: large; font-weight: bold; background-color: blanchedalmond;">Menu</button>
+            <button style="font-size: large; font-weight: bold; background-color: blanchedalmond;">Order</button>
+            <button style="font-size: large; font-weight: bold; background-color: blanchedalmond;">Contact</button>
+            <br>
+            <br>
+        </nav>
+        <main class="mainsheet">
+            <section>
+                <img width="50%" height="50%" class="image"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Rameshwaram_Cafe_Dosa.jpg/1200px-Rameshwaram_Cafe_Dosa.jpg" alt="dosa">
+                <figure>
+                    <figcaption style="text-align:center; font-size: x-large; font-weight: bold;"><big>Our Famous Masala Dosa</big></figcaption>
+                </figure>
+            </section>
+            <section >
+                <h2 style="font-size: xx-large; ;"><b>Menu</b></h2>
+                <table border="1" width="30%" height="50%" style="text-align: center;">
+                    <tr>
+                        <th>Dish</th>
+                        <th>Price</th>
+                    </tr>
+                    <tr>
+                        <td>Gobi</td>
+                        <td>Rs.30/-</td>
+                    </tr>
+                    <tr>
+                        <td>Panner Tikka</td>
+                        <td>Rs.70/-</td>
+                    </tr>
+                    <tr>
+                        <td>Vegetable Biryani</td>
+                        <td>Rs. 50/-</td>
+                    </tr>
+                </table>
+            </section>
+            <section>
+                <h2 style="font-size: xx-large;">Online Order</h2>
+                <form style="font-size: x-large;">
+                        <label for="name"><b>Name:</b></label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required style="font-size: medium;">
+                        <br>
+                        <br>
+                        <label for="phone"><b>Phone:</b></label>
+                        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" min="10" maxlength="10" required style="font-size: medium;">
+                        <br>
+                        <br>
+                        <label for="dish"><b>Dish:</b></label>
+                        <input type="text" id="dish" name="dish" placeholder="Enter the dish" required style="font-size:medium;">
+                        <br>
+                        <br>
+                        <button type="submit" style="font-size: medium; background-color: darkred; color:azure;">Submit</button>
+                        <button type="reset" style="font-size: medium; background-color: grey; color: azure;">Reset</button>
+                        <br>
+                        <br>
+                </form>
+            </section>
+        </main>
+        <footer style="text-align: center; font-size: large; color: blanchedalmond; background-color: darkred;">
+            <br>
+            <h2>Contact Us</h2>
+            Phone: 6360544313
+            <br>
+            Email: continental@25gmail.com
+            <br>
+            Address: 123, Curry llne, Spice City
+            <br>
+            <br>
+            <br>
+        </footer>
+    </body>
+</html>
